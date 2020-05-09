@@ -1,0 +1,79 @@
+.btn {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 30px 20px;
+    background: var(--primary-color);
+    color: #fcc;
+    border-radius: 5px;
+    border: solid #fcc 1px;
+    opacity: 0.7;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+    background-color: rgba(255, 204, 204, 0.315);
+}
+
+.input-rectangle {
+    outline: 0;
+    border: solid #fcc 1px;
+    width: 250px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #fcc;
+    transition-duration: 0.25s;
+    font-weight: 300;
+    display: none;
+}
+
+.input-rectangle:hover {
+    background-color: rgba(255, 204, 204, 0.315);
+    /* background-color: fade(white, 40%); */
+}
+
+.input-rectangle:focus {
+    background-color: white;
+    width: 300px;
+    color: #fcc;
+}
+
+#input_rectangle::-webkit-input-placeholder {
+    color: #fcc;
+}
+
+#input_rectangle:-moz-placeholder {
+    color: #fcc;
+}
+
+#input_rectangle:-ms-input-placeholder {
+    color: #fcc;
+}
+
+.confirm-btn {
+    border: solid #fcc 1px;
+    width: 250px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #fcc;
+    transition-duration: 0.25s;
+    font-weight: 300;
+    display: none;
+    outline: none;
+}
+
+#confirm_btn:hover {
+    transform: scale(0.9);
+    background-color: rgba(255, 204, 204, 0.315);
+}
