@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="welcome.css">
+    <script type="text/javascript" src="welcome.js"></script>
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="center">
+        <div class="mask"></div>
+        <a href="javascript:void(0)" onclick="show_input()" id="enter" class="btn">Enter</a>
+        <div>
+            <input class="input-rectangle rec-btn" placeholder="name" id="input_rectangle" onfocus="this.placeholder=''" onblur="get_value()" type="text">
+            <button class="rec-btn confirm-btn" onclick="confirm(event)" id="confirm_btn">confirm</button>
+        </div>
+    </div>
+</body>
+
+</html>
