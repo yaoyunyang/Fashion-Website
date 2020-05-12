@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Open Sans", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", "Hiragino Sans GB", "WenQuanYi Micro Hei", Arial, sans-serif;
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 86%;
+    }
+    100% {
+        background-position: 100% 86%;
+    }
+    /* 0% {
+        background-position: 0 80%;
+    }
+    45% {
+        background-position: 100% 80%;
+    }
+    50% {
+        background-position: 100% 64%;
+    }
+    95% {
+        background-position: 0 64%;
+    }
+    100% {
+        background-position: 0 80%;
+    } */
+}
+
+.bg {
+    background: url(http://39.102.67.244/wp-content/uploads/2020/05/XIION.jpg);
+    background-size: cover;
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    filter: blur(15px);
+    z-index: -1;
+}
+
+.slogan {
+    color: white;
+    margin-top: 24px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.mask {
+    width: 900px;
+    height: 500px;
+    animation: move 100s linear infinite;
+    background-image: url(http://39.102.67.244/wp-content/uploads/2020/05/XIION.jpg);
+    -webkit-mask: url(http://39.102.67.244/wp-content/uploads/2020/05/fashion1.svg);
+    mask: url(http://39.102.67.244/wp-content/uploads/2020/05/fashion1.svg);
+    mask-size: cover;
+    -webkit-mask-size: cover;
+}
+
+
+/*整体中间*/
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    z-index: 2
+}
+
+.btn {
+    display: inline-block;
+    width: 234px;
+    height: 61px;
+    font-size: 3.2rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px 30px 12px;
+    background: var(--primary-color);
+    color: #fcc;
+    border-radius: 5px;
+    border: solid #fcc 1px;
+    opacity: 0.7;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+    background-color: rgba(255, 204, 204, 0.315)
+}
+
+
+/*输入框和确认框*/
+
+.input-rectangle {
+    outline: 0;
+    border: solid #fcc 1px;
+    width: 216px;
+    height: 38px;
+    transition-duration: 0.25s;
+    margin: 0 auto 10px auto;
+    background: none;
+}
+
+.input-rectangle:hover {
+    background-color: rgba(255, 204, 204, 0.315);
+    /* background-color: fade(white, 40%); */
+}
+
+.input-rectangle:focus {
+    background-color: none;
+    width: 240px;
+    color: #fcc;
+}
+
+#input_rectangle::-webkit-input-placeholder {
+    color: #fcc;
+}
+
+#input_rectangle:-moz-placeholder {
+    color: #fcc;
+}
+
+#input_rectangle:-ms-input-placeholder {
+    color: #fcc;
+}
+
+.confirm-btn {
+    border: solid #fcc 1px;
+    width: 270px;
+    height: 60px;
+    transition-duration: 0.25s;
+    margin: 0 0 10px 55px;
+    outline: none;
+    background: none;
+}
+
+.rec-btn {
+    display: none;
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+    color: #fcc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: solid #fcc 1px;
+}
+
+#confirm_btn:hover {
+    background-color: rgba(255, 204, 204, 0.315)
+}
