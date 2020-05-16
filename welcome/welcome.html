@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <link type="text/css" rel="stylesheet" href="welcome.css">
     <script type="text/javascript" src="welcome.js"></script>
 </head>
@@ -15,7 +16,7 @@
         <div class="avatar">
             <div class="avatar-upload">
                 <div class="avatar-preview">
-                    <div id="imagePreview" style="background-image: url(http://39.102.67.244/wp-content/uploads/2020/05/hz.jpg);">
+                    <div id="imagePreview">
                     </div>
                 </div>
             </div>
@@ -25,10 +26,19 @@
         </div>
         <div class="welcome">
             <div class="mask"></div>
-            <a href="javascript:void(0)" onclick="show_input()" id="enter" class="btn">Enter</a>
+            <a href="javascript:void(0)" id="enter" class="btn">Enter</a>
             <div>
-                <input class="input-rectangle rec-btn" placeholder="name" id="input_rectangle" onfocus="this.placeholder=''" onblur="get_value()" type="text">
-                <button class="rec-btn confirm-btn" onclick="confirm(event)" id="confirm_btn">confirm</button>
+                <input class="input-rectangle rec-btn" placeholder="name" id="input_rectangle" onfocus="this.placeholder=''" type="text">
+                <button class="rec-btn confirm-btn" id="confirm_btn">confirm</button>
+            </div>
+        </div>
+    </div>
+    <div class="layer_mask">
+        <div class="widget center_widget">
+            <div class="blur"></div>
+            <div class="text">
+                <h1 class="">You are not the graduate of Fashion Crew 2020</h1>
+                <p>please use the template name: visitor</p>
             </div>
         </div>
     </div>
