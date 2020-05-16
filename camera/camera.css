@@ -22,7 +22,7 @@ body {
 .avatar:after {
     content: "";
     position: absolute;
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #f0e3c7), color-stop(100%, #6bcab4));
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #f0e3c7), color-stop(100%, #00b4ff));
     width: 10vw;
     height: 10vw;
     border-radius: 100%;
@@ -186,7 +186,7 @@ body {
     background: radial-gradient(ellipse at center, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
     border-radius: 100%;
     opacity: 1;
-    transition: opacity 5s ease-in-out;
+    transition: opacity 6s ease-in;
 }
 
 @keyframes flash {
@@ -194,15 +194,7 @@ body {
         width: 0;
         height: 0;
     }
-    20% {
-        width: 2000px;
-        height: 2000px;
-    }
-    25% {
-        width: 2000px;
-        height: 2000px;
-    }
-    50% {
+    10% {
         width: 2000px;
         height: 2000px;
     }
@@ -462,7 +454,7 @@ img {
     height: 50%;
     opacity: 0;
     /* border-radius: 30px; */
-    transition: opacity 8s ease-in-out;
+    transition: opacity 6s ease-in;
 }
 
 .cover::after {
