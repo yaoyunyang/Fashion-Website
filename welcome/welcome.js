@@ -46,25 +46,27 @@ $(function() {
     })
 
     $('.next_btn').on('click', function() {
-        var timeout;
         // text = ['很幸运', '遇见了你们', '一群优秀可爱又负责的学长血迹', '很遗憾', '无法回学校', '在专场的舞台上送别你们', '......', '在这个特殊的时期', '请允许我们用这种方式表达感激与祝福', '因为你们', 'Fashion Crew变得越来越好', '因为你们', '我们拥有一段难忘的回忆', '......', '愿有前程可奔赴', '亦有岁月可回首']
         // var len = text.length;
-        var i = 1;
+        // var i = 1;
+        $('.sp-content').css({
+            display: 'flex'
+        });
         $('.avatar').css({
-            transition: 'top 1s ease-in',
+            transition: 'top 2s ease-out',
             top: '100%'
         });
 
-        timeout = setInterval(function() {
-            if (i < 5) {
-                e = document.querySelector($('#center_text_' + i).selector)
-                i++;
-                e.style.opacity = 1;
-                console.log(i);
-                console.log(e);
-            } else {
-                clearInterval(timeout)
-            }
-        }, 2000);
+        // timeout = setInterval(function() {
+        //     if (i < 5) {
+        //         e = document.querySelector($('#center_text_' + i).selector)
+        //         i++;
+        //         e.style.opacity = 1;
+        //         console.log(i);
+        //         console.log(e);
+        //     } else {
+        //         clearInterval(timeout)
+        //     }
+        // }, 2000);
     })
 })
