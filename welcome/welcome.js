@@ -1,4 +1,13 @@
 $(function() {
+    document.getElementById("bgm").volume = 0.1;
+    document.getElementById("bgm").play();
+    /*
+        google 无法自动播放
+    */
+    $(document).on('click', function() {
+        document.getElementById("bgm").volume = 0.1;
+        document.getElementById("bgm").play();
+    });
     var flag = 0;
     $('#enter').on('click', function() {
         document.getElementById("input_rectangle").style.display = "inline-block";
