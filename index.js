@@ -30,7 +30,7 @@ $(function() {
                 flag = 1;
             }
         } else {
-            document.getElementById("imagePreview").style.backgroundImage = "url(http://39.102.67.244/wp-content/uploads/2020/05/avatar/" + input_value.toLowerCase() + ".jpg)";
+            document.getElementById("imagePreview").style.backgroundImage = "url(https://fashion13.oss-cn-beijing.aliyuncs.com/Q_avatar/" + input_value.toLowerCase() + ".jpg)";
             document.querySelector(".welcome").style.display = "none";
             document.querySelector(".avatar").style.opacity = 1;
             document.getElementById("graduate_name").innerHTML = input_value.toUpperCase();

@@ -1,0 +1,415 @@
+@font-face {
+    font-family: 'my_font';
+    src: url('https://fashion13.oss-cn-beijing.aliyuncs.com/audio/my_new_font/my_new_font.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+}
+
+
+/*bg*/
+
+
+/* Section-1 Styles */
+
+#section-1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    z-index: -100;
+}
+
+#section-1 .content-slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#section-1 .content-slider input {
+    display: none;
+}
+
+#section-1 .content-slider .slider {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+}
+
+#section-1 .content-slider .slider .banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: all 0.5s ease;
+}
+
+#section-1 .content-slider .slider .banner .banner-inner-wrapper {
+    height: 100%;
+    padding-top: 6em;
+    background-image: linear-gradient(rgba(243, 129, 129, 0.6), rgba(243, 129, 129, 0.6));
+    box-sizing: border-box;
+}
+
+#section-1 .content-slider .slider #top-banner-1 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/15_2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-2 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/17_01.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-3 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/17_04.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-4 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/17_03.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-5 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/17_02.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-6 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/17_05.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-7 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/17_2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-8 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_01.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-9 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_02.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-10 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_03.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-11 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_04.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-12 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_05.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-13 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_06.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-14 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_07.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-15 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_08.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-16 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_09.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-17 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_10.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-18 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_11.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-19 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_12.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-20 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_13.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-21 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_14.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-22 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_15.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-23 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_16.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-24 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_17.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-25 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_18.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-26 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_19.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-27 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_20.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-28 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18_1.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-29 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_01.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-30 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_02.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-31 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_03.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-32 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_04.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-33 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_05.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-34 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_10.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-35 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_11.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-36 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_12.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-37 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_13.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-38 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_14.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-39 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_3.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-40 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_15.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-41 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_16.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-42 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_17.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-43 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_18.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-44 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_19.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-45 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_20.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-46 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_21.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-47 {
+    background: url('https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19_4.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#section-1 .content-slider #banner1:checked~.slider #top-banner-1,
+#section-1 .content-slider #banner2:checked~.slider #top-banner-2,
+#section-1 .content-slider #banner3:checked~.slider #top-banner-3,
+#section-1 .content-slider #banner4:checked~.slider #top-banner-4 {
+    opacity: 1;
+    z-index: 1;
+}
+
+#section-1 .content-slider #banner1:checked~nav label:nth-of-type(1),
+#section-1 .content-slider #banner2:checked~nav label:nth-of-type(2),
+#section-1 .content-slider #banner3:checked~nav label:nth-of-type(3),
+#section-1 .content-slider #banner4:checked~nav label:nth-of-type(4) {
+    cursor: default;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+
+/* 中间播放 */
+
+#music-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.well {
+    width: 200px;
+}
+
+.hope_well {
+    width: 800px;
+}
+
+.well,
+.hope_well {
+    margin: 10px;
+}
+
+#lyrics {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+    position: absolute;
+    bottom: 0;
+}
+
+#lyrics-content {
+    margin: 0;
+    transition: ease 0.1s all;
+}
+
+h2,
+h1 {
+    font-family: 'my_font';
+}
+
+#lyrics h2 {
+    display: none;
+    font-family: 'my_font';
+}
+
+#lyrics .current {
+    display: block;
+    font-size: 250%;
+}
+
+#lyrics::-webkit-scrollbar,
+#show-box::-webkit-scrollbar {
+    width: 5px;
+}
+
+#lyrics::-webkit-scrollbar-track,
+#show-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#lyrics::-webkit-scrollbar-thumb,
+#show-box::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 15px;
+}
+
+button {
+    padding: 10px 14px;
+    border-radius: 50%;
+    border: none;
+    margin: 20px 5px 0 5px;
+    background: inherit;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+button i {
+    padding: 5px 3px 5px 5px;
+}
+
+#play {
+    opacity: 1;
+    border: 2px solid white;
+}
+
+button:focus {
+    outline: none;
+}
