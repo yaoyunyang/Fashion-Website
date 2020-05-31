@@ -58,10 +58,6 @@ $(function() {
             }
             // 播放 或 暂停 歌曲
             function playSong() {
-                if (flag == 1) {
-                    bannerTimer = setInterval(function() { bannerSwitcher() }, 1000);
-                    flag = 0;
-                }
                 if (play == 0) {
                     play = 1;
                     audio.play();
@@ -92,13 +88,17 @@ $(function() {
             function updateTimer(data) {
                 console.log(time);
                 if (time >= totalTime) {
-                    // $('#music-player').css({
-                    //     display: 'none'
-                    // });
-                    // $('#lyrics').css({
-                    //     display: 'none'
-                    // });
-                    window.location.href = "../camera/camera.html";
+                    $('#music-player').css({
+                        transition: 'opacity 4s ease-in',
+                        opacity: 0
+                    });
+                    $('#play').css({
+                        display: 'none'
+                    });
+                    $('#lyrics').css({
+                        display: 'none'
+                    });
+                    // window.location.href = "../camera/camera.html";
                 }
                 if (totalTime == 0 || isNaN(totalTime)) {
                     totalTime = parseInt((audio.duration * 1000));
@@ -155,14 +155,6 @@ $(function() {
 
             loadSong();
             $('#play').on('click', playSong);
-
-            function bannerSwitcher() {
-                console.log($('.sec-1-input').filter(':checked'));
-                next_slide = $('.sec-1-input').filter(':checked').next('.sec-1-input');
-                console.log(next_slide);
-                if (next_slide.length) next_slide.prop('checked', true);
-                else $('.sec-1-input').first().prop('checked', true);
-            }
         });
     });
 })
