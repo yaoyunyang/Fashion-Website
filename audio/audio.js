@@ -58,6 +58,10 @@ $(function() {
             }
             // 播放 或 暂停 歌曲
             function playSong() {
+                if (flag == 1) {
+                    flag = 0;
+                    time = 290000;
+                }
                 if (play == 0) {
                     play = 1;
                     audio.play();
@@ -86,19 +90,19 @@ $(function() {
             }
 
             function updateTimer(data) {
-                console.log(time);
                 if (time >= totalTime) {
                     $('#music-player').css({
                         transition: 'opacity 4s ease-in',
                         opacity: 0
                     });
                     $('#play').css({
-                        display: 'none'
+                        opacity: 0
                     });
                     $('#lyrics').css({
-                        display: 'none'
+                        transition: 'opacity 4s ease-in',
+                        opacity: 0
                     });
-                    // window.location.href = "../camera/camera.html";
+                    setTimeout(function() { window.location.href = "../camera/camera.html";; }, 6000);
                 }
                 if (totalTime == 0 || isNaN(totalTime)) {
                     totalTime = parseInt((audio.duration * 1000));
