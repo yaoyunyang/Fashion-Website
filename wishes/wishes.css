@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    user-select: none;
 }
 
 .title {
@@ -82,8 +83,8 @@ p {
     position: relative;
     -webkit-box-flex: 0;
     flex: 0 0 240px;
-    width: 250px;
-    height: 350px;
+    width: 270px;
+    height: 400px;
     background-color: #333;
     overflow: hidden;
     border-radius: 10px;
@@ -155,48 +156,48 @@ p {
 }
 
 #hxl .card .card-info {
-    bottom: -78px;
+    bottom: -72px;
 }
 
 #hxl:hover .card-info {
     -webkit-transform: translateY(0);
-    transform: translateY(-78px);
+    transform: translateY(-72px);
 }
 
 #sny .card .card-info {
-    bottom: -116px;
+    bottom: -109px;
 }
 
 #sny:hover .card-info {
     -webkit-transform: translateY(0);
-    transform: translateY(-116px);
+    transform: translateY(-109px);
 }
 
 #dc .card .card-info {
-    bottom: -15px;
+    bottom: -21px;
 }
 
 #dc:hover .card-info {
     -webkit-transform: translateY(0);
-    transform: translateY(-15px);
+    transform: translateY(-21px);
 }
 
 #shy .card .card-info {
-    bottom: -65px;
+    bottom: -59px;
 }
 
 #shy:hover .card-info {
     -webkit-transform: translateY(0);
-    transform: translateY(-65px);
+    transform: translateY(-59px);
 }
 
 #dxh .card .card-info {
-    bottom: -90px;
+    bottom: -84px;
 }
 
 #dxh:hover .card-info {
     -webkit-transform: translateY(0);
-    transform: translateY(-90px);
+    transform: translateY(-84px);
 }
 
 .to-btn {
@@ -216,4 +217,31 @@ p {
 .to-btn:hover {
     background: #5D4037;
     color: #fff;
+}
+
+#wrm .card .card-info {
+    bottom: -109px;
+}
+
+#wrm:hover .card-info {
+    -webkit-transform: translateY(0);
+    transform: translateY(-109px);
+}
+
+#sxy .card .card-info {
+    bottom: -172px;
+}
+
+#sxy:hover .card-info {
+    -webkit-transform: translateY(0);
+    transform: translateY(-172px);
+}
+
+#lxf .card .card-info {
+    bottom: -159px;
+}
+
+#lxf:hover .card-info {
+    -webkit-transform: translateY(0);
+    transform: translateY(-159px);
 }
