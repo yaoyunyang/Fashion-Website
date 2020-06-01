@@ -20,7 +20,7 @@ $(function() {
             var counter = 0;
             var stopTimer;
             var safeKill = 0;
-            var flag = 1;
+            var flag = 0;
             // 这个是实时更新啊??? 下面函数中每次更改源的时候页面都会加载一次, 触发一次ready函数
             var audio = document.getElementById('audioFile');
 

@@ -1,6 +1,65 @@
 body {
     margin: 0;
+    overflow: hidden;
     /* background-color: cornflowerblue; */
+}
+
+
+/*
+    the end
+*/
+
+.the-end1,
+.the-end2,
+#the_end {
+    width: 550px;
+    height: 90px;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.the-end1 {
+    height: 45px;
+    background-color: red;
+}
+
+.the-end2 {
+    height: 40px;
+    top: 45.7%;
+    background-color: black;
+}
+
+@keyframes imageAnimation1 {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.5;
+    }
+    80% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes imageAnimation2 {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0
+    }
 }
 
 .avatar {
@@ -448,12 +507,9 @@ body {
 
 .cover img {
     position: absolute;
-    /* top: 25%;
-    left: 25%; */
     width: 100%;
     height: 100%;
     opacity: 0;
-    /* border-radius: 30px; */
     transition: opacity 6s ease-in;
 }
 

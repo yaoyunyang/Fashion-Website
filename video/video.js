@@ -11,10 +11,14 @@ $(function() {
         e.preventDefault();
         $moveable.css({ display: 'none' });
         $player.css({ display: 'none' });
+        /*
+             是否加滤镜
+        */
+        // $('.layer--overlay').css({ display: 'none' });
         /*视频播放完毕后需要自动进入下个part */
         new TimelineLite({
                 onStart: function() {
-                    $video[0].currentTime = 230; // 0
+                    $video[0].currentTime = 0;
                     $video.prop("muted", false);
                 }
             })
