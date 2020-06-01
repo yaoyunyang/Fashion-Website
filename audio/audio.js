@@ -92,17 +92,20 @@ $(function() {
             function updateTimer(data) {
                 if (time >= totalTime) {
                     $('#music-player').css({
-                        transition: 'opacity 4s ease-in',
+                        transition: 'opacity 3s ease-out',
                         opacity: 0
                     });
                     $('#play').css({
                         opacity: 0
                     });
                     $('#lyrics').css({
-                        transition: 'opacity 4s ease-in',
+                        transition: 'opacity 3s ease-out',
                         opacity: 0
                     });
-                    setTimeout(function() { window.location.href = "../camera/camera.html";; }, 6000);
+                    $('.sp-content').css({
+                        display: 'flex'
+                    });
+                    // setTimeout(function() { window.location.href = "../camera/camera.html";; }, 6000);
                 }
                 if (totalTime == 0 || isNaN(totalTime)) {
                     totalTime = parseInt((audio.duration * 1000));

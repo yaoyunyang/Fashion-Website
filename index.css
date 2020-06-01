@@ -247,10 +247,9 @@ h1 small {
 
 .blur {
     background: url(https://fashion13.oss-cn-beijing.aliyuncs.com/welcome/XIION.jpg) no-repeat center center fixed;
-    /* background-size: cover; */
     background-color: rgba(0, 0, 0, 0.7);
     overflow: hidden;
-    /* filter: blur(13px); */
+    filter: blur(13px);
     position: absolute;
     height: 300px;
     top: -50px;

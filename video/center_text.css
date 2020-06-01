@@ -4,25 +4,25 @@
     flex-direction: column;
     align-items: center;
     display: none;
-    z-index: -3;
+    width: 100%;
 }
 
 .host-string img {
     width: 550px;
     height: 90px;
-    margin: 30px 50px;
-    -webkit-animation: blurFadeIn 3s ease-in 3s backwards;
-    -moz-animation: blurFadeIn 3s ease-in 3s backwards;
-    -ms-animation: blurFadeIn 3s ease-in 3s backwards;
-    animation: blurFadeIn 3s ease-in 3s backwards;
+    margin: 30px 0;
+    -webkit-animation: blurFadeIn 3s ease-in 1s backwards;
+    -moz-animation: blurFadeIn 3s ease-in 1s backwards;
+    -ms-animation: blurFadeIn 3s ease-in 1s backwards;
+    animation: blurFadeIn 3s ease-in 1s backwards;
 }
 
 .host-string img:nth-child(2) {
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-    animation-delay: 6s;
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    -ms-animation-delay: 4s;
+    animation-delay: 4s;
+    animation-delay: 4s;
 }
 
 .host-string {
@@ -43,10 +43,10 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    -webkit-animation: fadeInRotate 1s linear 11s backwards;
-    -moz-animation: fadeInRotate 1s linear 11s backwards;
-    -ms-animation: fadeInRotate 1s linear 11s backwards;
-    animation: fadeInRotate 1s linear 11s backwards;
+    -webkit-animation: fadeInRotate 1s linear 9s backwards;
+    -moz-animation: fadeInRotate 1s linear 9s backwards;
+    -ms-animation: fadeInRotate 1s linear 9s backwards;
+    animation: fadeInRotate 1s linear 9s backwards;
     -webkit-transform: scale(1) rotate(0deg);
     -moz-transform: scale(1) rotate(0deg);
     -o-transform: scale(1) rotate(0deg);
