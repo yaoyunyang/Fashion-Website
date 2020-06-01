@@ -6,6 +6,7 @@ $(function() {
         document.querySelector(".light").style.opacity = 0;
         // $('.avatar').addClass('open');
         document.querySelector(".avatar").style.display = "none";
+        document.querySelector(".sp-content").style.display = "none";
         document.querySelector("img").style.opacity = 1;
     });
     // added code to close the modal if you click outside
