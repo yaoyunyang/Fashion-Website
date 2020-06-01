@@ -149,11 +149,11 @@ button:focus {
     opacity: 0;
     z-index: 0;
     backface-visibility: hidden;
-    -webkit-animation: imageAnimation 240s linear infinite 0s;
-    -moz-animation: imageAnimation 240s linear infinite 0s;
-    -o-animation: imageAnimation 240s linear infinite 0s;
-    -ms-animation: imageAnimation 240s linear infinite 0s;
-    animation: imageAnimation 240s linear alternate 0s;
+    -webkit-animation: imageAnimation 286s linear infinite 0s;
+    -moz-animation: imageAnimation 286s linear infinite 0s;
+    -o-animation: imageAnimation 286s linear infinite 0s;
+    -ms-animation: imageAnimation 286s linear infinite 0s;
+    animation: imageAnimation 286s linear infinite 0s;
 }
 
 .cb-slideshow li:nth-child(1) span {
@@ -162,105 +162,87 @@ button:focus {
 
 .cb-slideshow li:nth-child(2) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/2.jpg);
-    -webkit-animation-delay: 5s;
-    -moz-animation-delay: 5s;
-    -o-animation-delay: 5s;
-    -ms-animation-delay: 5s;
-    animation-delay: 5s;
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
 }
 
 .cb-slideshow li:nth-child(3) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/3.jpg);
-    -webkit-animation-delay: 10s;
-    -moz-animation-delay: 10s;
-    -o-animation-delay: 10s;
-    -ms-animation-delay: 10s;
-    animation-delay: 10s;
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
 }
 
 .cb-slideshow li:nth-child(4) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/4.jpg);
-    -webkit-animation-delay: 15s;
-    -moz-animation-delay: 15s;
-    -o-animation-delay: 15s;
-    -ms-animation-delay: 15s;
-    animation-delay: 15s;
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
 }
 
 .cb-slideshow li:nth-child(5) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/5.jpg);
-    -webkit-animation-delay: 20s;
-    -moz-animation-delay: 20s;
-    -o-animation-delay: 20s;
-    -ms-animation-delay: 20s;
-    animation-delay: 20s;
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
 }
 
 .cb-slideshow li:nth-child(6) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/6.jpg);
-    -webkit-animation-delay: 25s;
-    -moz-animation-delay: 25s;
-    -o-animation-delay: 25s;
-    -ms-animation-delay: 25s;
-    animation-delay: 25s;
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
 }
 
 .cb-slideshow li:nth-child(7) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/7.jpg);
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s;
+    -webkit-animation-delay: 36s;
+    -moz-animation-delay: 36s;
+    -o-animation-delay: 36s;
+    -ms-animation-delay: 36s;
+    animation-delay: 36s;
 }
 
 .cb-slideshow li:nth-child(8) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/8.jpg);
-    -webkit-animation-delay: 35s;
-    -moz-animation-delay: 35s;
-    -o-animation-delay: 35s;
-    -ms-animation-delay: 35s;
-    animation-delay: 35s;
+    -webkit-animation-delay: 42s;
+    -moz-animation-delay: 42s;
+    -o-animation-delay: 42s;
+    -ms-animation-delay: 42s;
+    animation-delay: 42s;
 }
 
 .cb-slideshow li:nth-child(9) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/9.jpg);
-    -webkit-animation-delay: 40s;
-    -moz-animation-delay: 40s;
-    -o-animation-delay: 40s;
-    -ms-animation-delay: 40s;
-    animation-delay: 40s;
+    -webkit-animation-delay: 48s;
+    -moz-animation-delay: 48s;
+    -o-animation-delay: 48s;
+    -ms-animation-delay: 48s;
+    animation-delay: 48s;
 }
 
 .cb-slideshow li:nth-child(10) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/10.jpg);
-    -webkit-animation-delay: 45s;
-    -moz-animation-delay: 45s;
-    -o-animation-delay: 45s;
-    -ms-animation-delay: 45s;
-    animation-delay: 45s;
+    -webkit-animation-delay: 54s;
+    -moz-animation-delay: 54s;
+    -o-animation-delay: 54s;
+    -ms-animation-delay: 54s;
+    animation-delay: 54s;
 }
 
 .cb-slideshow li:nth-child(11) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/11.jpg);
-    -webkit-animation-delay: 50s;
-    -moz-animation-delay: 50s;
-    -o-animation-delay: 50s;
-    -ms-animation-delay: 50s;
-    animation-delay: 50s;
-}
-
-.cb-slideshow li:nth-child(12) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/12.jpg);
-    -webkit-animation-delay: 55s;
-    -moz-animation-delay: 55s;
-    -o-animation-delay: 55s;
-    -ms-animation-delay: 55s;
-    animation-delay: 55s;
-}
-
-.cb-slideshow li:nth-child(13) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/13.jpg);
     -webkit-animation-delay: 60s;
     -moz-animation-delay: 60s;
     -o-animation-delay: 60s;
@@ -268,53 +250,44 @@ button:focus {
     animation-delay: 60s;
 }
 
+.cb-slideshow li:nth-child(12) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/12.jpg);
+    -webkit-animation-delay: 66s;
+    -moz-animation-delay: 66s;
+    -o-animation-delay: 66s;
+    -ms-animation-delay: 66s;
+    animation-delay: 66s;
+}
+
+.cb-slideshow li:nth-child(13) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/13.jpg);
+    -webkit-animation-delay: 72s;
+    -moz-animation-delay: 72s;
+    -o-animation-delay: 72s;
+    -ms-animation-delay: 72s;
+    animation-delay: 72s;
+}
+
 .cb-slideshow li:nth-child(14) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/14.jpg);
-    -webkit-animation-delay: 65s;
-    -moz-animation-delay: 65s;
-    -o-animation-delay: 65s;
-    -ms-animation-delay: 65s;
-    animation-delay: 65s;
+    -webkit-animation-delay: 78s;
+    -moz-animation-delay: 78s;
+    -o-animation-delay: 78s;
+    -ms-animation-delay: 78s;
+    animation-delay: 78s;
 }
 
 .cb-slideshow li:nth-child(15) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/15.jpg);
-    -webkit-animation-delay: 70s;
-    -moz-animation-delay: 70s;
-    -o-animation-delay: 70s;
-    -ms-animation-delay: 70s;
-    animation-delay: 70s;
+    -webkit-animation-delay: 84s;
+    -moz-animation-delay: 84s;
+    -o-animation-delay: 84s;
+    -ms-animation-delay: 84s;
+    animation-delay: 84s;
 }
 
 .cb-slideshow li:nth-child(16) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/16.jpg);
-    -webkit-animation-delay: 75s;
-    -moz-animation-delay: 75s;
-    -o-animation-delay: 75s;
-    -ms-animation-delay: 75s;
-    animation-delay: 75s;
-}
-
-.cb-slideshow li:nth-child(17) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/17.jpg);
-    -webkit-animation-delay: 80s;
-    -moz-animation-delay: 80s;
-    -o-animation-delay: 80s;
-    -ms-animation-delay: 80s;
-    animation-delay: 80s;
-}
-
-.cb-slideshow li:nth-child(18) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18.jpg);
-    -webkit-animation-delay: 85s;
-    -moz-animation-delay: 85s;
-    -o-animation-delay: 85s;
-    -ms-animation-delay: 85s;
-    animation-delay: 85s;
-}
-
-.cb-slideshow li:nth-child(19) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19.jpg);
     -webkit-animation-delay: 90s;
     -moz-animation-delay: 90s;
     -o-animation-delay: 90s;
@@ -322,53 +295,44 @@ button:focus {
     animation-delay: 90s;
 }
 
+.cb-slideshow li:nth-child(17) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/17.jpg);
+    -webkit-animation-delay: 96s;
+    -moz-animation-delay: 96s;
+    -o-animation-delay: 96s;
+    -ms-animation-delay: 96s;
+    animation-delay: 96s;
+}
+
+.cb-slideshow li:nth-child(18) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/18.jpg);
+    -webkit-animation-delay: 102s;
+    -moz-animation-delay: 102s;
+    -o-animation-delay: 102s;
+    -ms-animation-delay: 102s;
+    animation-delay: 102s;
+}
+
+.cb-slideshow li:nth-child(19) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/19.jpg);
+    -webkit-animation-delay: 108s;
+    -moz-animation-delay: 108s;
+    -o-animation-delay: 108s;
+    -ms-animation-delay: 108s;
+    animation-delay: 108s;
+}
+
 .cb-slideshow li:nth-child(20) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/20.jpg);
-    -webkit-animation-delay: 95s;
-    -moz-animation-delay: 95s;
-    -o-animation-delay: 95s;
-    -ms-animation-delay: 95s;
-    animation-delay: 95s;
+    -webkit-animation-delay: 114s;
+    -moz-animation-delay: 114s;
+    -o-animation-delay: 114s;
+    -ms-animation-delay: 114s;
+    animation-delay: 114s;
 }
 
 .cb-slideshow li:nth-child(21) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/21.jpg);
-    -webkit-animation-delay: 100s;
-    -moz-animation-delay: 100s;
-    -o-animation-delay: 100s;
-    -ms-animation-delay: 100s;
-    animation-delay: 100s;
-}
-
-.cb-slideshow li:nth-child(22) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/22.jpg);
-    -webkit-animation-delay: 105s;
-    -moz-animation-delay: 105s;
-    -o-animation-delay: 105s;
-    -ms-animation-delay: 105s;
-    animation-delay: 105s;
-}
-
-.cb-slideshow li:nth-child(23) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/23.jpg);
-    -webkit-animation-delay: 110s;
-    -moz-animation-delay: 110s;
-    -o-animation-delay: 110s;
-    -ms-animation-delay: 110s;
-    animation-delay: 110s;
-}
-
-.cb-slideshow li:nth-child(24) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/24.jpg);
-    -webkit-animation-delay: 115s;
-    -moz-animation-delay: 115s;
-    -o-animation-delay: 115s;
-    -ms-animation-delay: 115s;
-    animation-delay: 115s;
-}
-
-.cb-slideshow li:nth-child(25) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/25.jpg);
     -webkit-animation-delay: 120s;
     -moz-animation-delay: 120s;
     -o-animation-delay: 120s;
@@ -376,53 +340,44 @@ button:focus {
     animation-delay: 120s;
 }
 
+.cb-slideshow li:nth-child(22) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/22.jpg);
+    -webkit-animation-delay: 126s;
+    -moz-animation-delay: 126s;
+    -o-animation-delay: 126s;
+    -ms-animation-delay: 126s;
+    animation-delay: 126s;
+}
+
+.cb-slideshow li:nth-child(23) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/23.jpg);
+    -webkit-animation-delay: 132s;
+    -moz-animation-delay: 132s;
+    -o-animation-delay: 132s;
+    -ms-animation-delay: 132s;
+    animation-delay: 132s;
+}
+
+.cb-slideshow li:nth-child(24) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/24.jpg);
+    -webkit-animation-delay: 138s;
+    -moz-animation-delay: 138s;
+    -o-animation-delay: 138s;
+    -ms-animation-delay: 138s;
+    animation-delay: 138s;
+}
+
+.cb-slideshow li:nth-child(25) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/25.jpg);
+    -webkit-animation-delay: 144s;
+    -moz-animation-delay: 144s;
+    -o-animation-delay: 144s;
+    -ms-animation-delay: 144s;
+    animation-delay: 144s;
+}
+
 .cb-slideshow li:nth-child(26) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/26.jpg);
-    -webkit-animation-delay: 125s;
-    -moz-animation-delay: 125s;
-    -o-animation-delay: 125s;
-    -ms-animation-delay: 125s;
-    animation-delay: 125s;
-}
-
-.cb-slideshow li:nth-child(27) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/27.jpg);
-    -webkit-animation-delay: 130s;
-    -moz-animation-delay: 130s;
-    -o-animation-delay: 130s;
-    -ms-animation-delay: 130s;
-    animation-delay: 130s;
-}
-
-.cb-slideshow li:nth-child(28) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/28.jpg);
-    -webkit-animation-delay: 135s;
-    -moz-animation-delay: 135s;
-    -o-animation-delay: 135s;
-    -ms-animation-delay: 135s;
-    animation-delay: 135s;
-}
-
-.cb-slideshow li:nth-child(29) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/29.jpg);
-    -webkit-animation-delay: 140s;
-    -moz-animation-delay: 140s;
-    -o-animation-delay: 140s;
-    -ms-animation-delay: 140s;
-    animation-delay: 140s;
-}
-
-.cb-slideshow li:nth-child(30) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/30.jpg);
-    -webkit-animation-delay: 145s;
-    -moz-animation-delay: 145s;
-    -o-animation-delay: 145s;
-    -ms-animation-delay: 145s;
-    animation-delay: 145s;
-}
-
-.cb-slideshow li:nth-child(31) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/31.jpg);
     -webkit-animation-delay: 150s;
     -moz-animation-delay: 150s;
     -o-animation-delay: 150s;
@@ -430,53 +385,44 @@ button:focus {
     animation-delay: 150s;
 }
 
-.cb-slideshow li:nth-child(32) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/32.jpg);
-    -webkit-animation-delay: 155s;
-    -moz-animation-delay: 155s;
-    -o-animation-delay: 155s;
-    -ms-animation-delay: 155s;
-    animation-delay: 155s;
+.cb-slideshow li:nth-child(27) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/27.jpg);
+    -webkit-animation-delay: 156s;
+    -moz-animation-delay: 156s;
+    -o-animation-delay: 156s;
+    -ms-animation-delay: 156s;
+    animation-delay: 156s;
 }
 
-.cb-slideshow li:nth-child(33) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/33.jpg);
-    -webkit-animation-delay: 160s;
-    -moz-animation-delay: 160s;
-    -o-animation-delay: 160s;
-    -ms-animation-delay: 160s;
-    animation-delay: 160s;
+.cb-slideshow li:nth-child(28) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/28.jpg);
+    -webkit-animation-delay: 162s;
+    -moz-animation-delay: 162s;
+    -o-animation-delay: 162s;
+    -ms-animation-delay: 162s;
+    animation-delay: 162s;
 }
 
-.cb-slideshow li:nth-child(34) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/34.jpg);
-    -webkit-animation-delay: 165s;
-    -moz-animation-delay: 165s;
-    -o-animation-delay: 165s;
-    -ms-animation-delay: 165s;
-    animation-delay: 165s;
+.cb-slideshow li:nth-child(29) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/29.jpg);
+    -webkit-animation-delay: 168s;
+    -moz-animation-delay: 168s;
+    -o-animation-delay: 168s;
+    -ms-animation-delay: 168s;
+    animation-delay: 168s;
 }
 
-.cb-slideshow li:nth-child(35) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/35.jpg);
-    -webkit-animation-delay: 170s;
-    -moz-animation-delay: 170s;
-    -o-animation-delay: 170s;
-    -ms-animation-delay: 170s;
-    animation-delay: 170s;
+.cb-slideshow li:nth-child(30) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/30.jpg);
+    -webkit-animation-delay: 174s;
+    -moz-animation-delay: 174s;
+    -o-animation-delay: 174s;
+    -ms-animation-delay: 174s;
+    animation-delay: 174s;
 }
 
-.cb-slideshow li:nth-child(36) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/36.jpg);
-    -webkit-animation-delay: 175s;
-    -moz-animation-delay: 175s;
-    -o-animation-delay: 175s;
-    -ms-animation-delay: 175s;
-    animation-delay: 175s;
-}
-
-.cb-slideshow li:nth-child(37) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/37.jpg);
+.cb-slideshow li:nth-child(31) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/31.jpg);
     -webkit-animation-delay: 180s;
     -moz-animation-delay: 180s;
     -o-animation-delay: 180s;
@@ -484,53 +430,44 @@ button:focus {
     animation-delay: 180s;
 }
 
-.cb-slideshow li:nth-child(38) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/38.jpg);
-    -webkit-animation-delay: 185s;
-    -moz-animation-delay: 185s;
-    -o-animation-delay: 185s;
-    -ms-animation-delay: 185s;
-    animation-delay: 185s;
+.cb-slideshow li:nth-child(32) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/32.jpg);
+    -webkit-animation-delay: 186s;
+    -moz-animation-delay: 186s;
+    -o-animation-delay: 186s;
+    -ms-animation-delay: 186s;
+    animation-delay: 186s;
 }
 
-.cb-slideshow li:nth-child(39) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/39.jpg);
-    -webkit-animation-delay: 190s;
-    -moz-animation-delay: 190s;
-    -o-animation-delay: 190s;
-    -ms-animation-delay: 190s;
-    animation-delay: 190s;
+.cb-slideshow li:nth-child(33) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/33.jpg);
+    -webkit-animation-delay: 192s;
+    -moz-animation-delay: 192s;
+    -o-animation-delay: 192s;
+    -ms-animation-delay: 192s;
+    animation-delay: 192s;
 }
 
-.cb-slideshow li:nth-child(40) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/40.jpg);
-    -webkit-animation-delay: 195s;
-    -moz-animation-delay: 195s;
-    -o-animation-delay: 195s;
-    -ms-animation-delay: 195s;
-    animation-delay: 195s;
+.cb-slideshow li:nth-child(34) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/34.jpg);
+    -webkit-animation-delay: 198s;
+    -moz-animation-delay: 198s;
+    -o-animation-delay: 198s;
+    -ms-animation-delay: 198s;
+    animation-delay: 198s;
 }
 
-.cb-slideshow li:nth-child(41) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/41.jpg);
-    -webkit-animation-delay: 200s;
-    -moz-animation-delay: 200s;
-    -o-animation-delay: 200s;
-    -ms-animation-delay: 200s;
-    animation-delay: 200s;
+.cb-slideshow li:nth-child(35) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/35.jpg);
+    -webkit-animation-delay: 204s;
+    -moz-animation-delay: 204s;
+    -o-animation-delay: 204s;
+    -ms-animation-delay: 204s;
+    animation-delay: 204s;
 }
 
-.cb-slideshow li:nth-child(42) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/42.jpg);
-    -webkit-animation-delay: 205s;
-    -moz-animation-delay: 205s;
-    -o-animation-delay: 205s;
-    -ms-animation-delay: 205s;
-    animation-delay: 205s;
-}
-
-.cb-slideshow li:nth-child(43) span {
-    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/43.jpg);
+.cb-slideshow li:nth-child(36) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/36.jpg);
     -webkit-animation-delay: 210s;
     -moz-animation-delay: 210s;
     -o-animation-delay: 210s;
@@ -538,92 +475,147 @@ button:focus {
     animation-delay: 210s;
 }
 
+.cb-slideshow li:nth-child(37) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/37.jpg);
+    -webkit-animation-delay: 216s;
+    -moz-animation-delay: 216s;
+    -o-animation-delay: 216s;
+    -ms-animation-delay: 216s;
+    animation-delay: 216s;
+}
+
+.cb-slideshow li:nth-child(38) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/38.jpg);
+    -webkit-animation-delay: 222s;
+    -moz-animation-delay: 222s;
+    -o-animation-delay: 222s;
+    -ms-animation-delay: 222s;
+    animation-delay: 222s;
+}
+
+.cb-slideshow li:nth-child(39) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/39.jpg);
+    -webkit-animation-delay: 228s;
+    -moz-animation-delay: 228s;
+    -o-animation-delay: 228s;
+    -ms-animation-delay: 228s;
+    animation-delay: 228s;
+}
+
+.cb-slideshow li:nth-child(40) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/40.jpg);
+    -webkit-animation-delay: 234s;
+    -moz-animation-delay: 234s;
+    -o-animation-delay: 234s;
+    -ms-animation-delay: 234s;
+    animation-delay: 234s;
+}
+
+.cb-slideshow li:nth-child(41) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/41.jpg);
+    -webkit-animation-delay: 240s;
+    -moz-animation-delay: 240s;
+    -o-animation-delay: 240s;
+    -ms-animation-delay: 240s;
+    animation-delay: 240s;
+}
+
+.cb-slideshow li:nth-child(42) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/42.jpg);
+    -webkit-animation-delay: 246s;
+    -moz-animation-delay: 246s;
+    -o-animation-delay: 246s;
+    -ms-animation-delay: 246s;
+    animation-delay: 246s;
+}
+
+.cb-slideshow li:nth-child(43) span {
+    background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/43.jpg);
+    -webkit-animation-delay: 252s;
+    -moz-animation-delay: 252s;
+    -o-animation-delay: 252s;
+    -ms-animation-delay: 252s;
+    animation-delay: 252s;
+}
+
 .cb-slideshow li:nth-child(44) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/44.jpg);
-    -webkit-animation-delay: 215s;
-    -moz-animation-delay: 215s;
-    -o-animation-delay: 215s;
-    -ms-animation-delay: 215s;
-    animation-delay: 215s;
+    -webkit-animation-delay: 258s;
+    -moz-animation-delay: 258s;
+    -o-animation-delay: 258s;
+    -ms-animation-delay: 258s;
+    animation-delay: 258s;
 }
 
 .cb-slideshow li:nth-child(45) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/45.jpg);
-    -webkit-animation-delay: 220s;
-    -moz-animation-delay: 220s;
-    -o-animation-delay: 220s;
-    -ms-animation-delay: 220s;
-    animation-delay: 220s;
+    -webkit-animation-delay: 264s;
+    -moz-animation-delay: 264s;
+    -o-animation-delay: 264s;
+    -ms-animation-delay: 264s;
+    animation-delay: 264s;
 }
 
 .cb-slideshow li:nth-child(46) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/46.jpg);
-    -webkit-animation-delay: 225s;
-    -moz-animation-delay: 225s;
-    -o-animation-delay: 225s;
-    -ms-animation-delay: 225s;
-    animation-delay: 225s;
+    -webkit-animation-delay: 270s;
+    -moz-animation-delay: 270s;
+    -o-animation-delay: 270s;
+    -ms-animation-delay: 270s;
+    animation-delay: 270s;
 }
 
 .cb-slideshow li:nth-child(47) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/47.jpg);
-    -webkit-animation-delay: 230s;
-    -moz-animation-delay: 230s;
-    -o-animation-delay: 230s;
-    -ms-animation-delay: 230s;
-    animation-delay: 230s;
+    -webkit-animation-delay: 276s;
+    -moz-animation-delay: 276s;
+    -o-animation-delay: 276s;
+    -ms-animation-delay: 276s;
+    animation-delay: 276s;
 }
 
 .cb-slideshow li:nth-child(48) span {
     background-image: url(https://fashion13.oss-cn-beijing.aliyuncs.com/bg_images/48.jpg);
-    -webkit-animation-delay: 235s;
-    -moz-animation-delay: 235s;
-    -o-animation-delay: 235s;
-    -ms-animation-delay: 235s;
-    animation-delay: 235s;
+    -webkit-animation-delay: 282s;
+    -moz-animation-delay: 282s;
+    -o-animation-delay: 282s;
+    -ms-animation-delay: 282s;
+    animation-delay: 282s;
 }
 
 .cb-slideshow li:nth-child(2) div {
-    -webkit-animation-delay: 5s;
-    -moz-animation-delay: 5s;
-    -o-animation-delay: 5s;
-    -ms-animation-delay: 5s;
-    animation-delay: 5s;
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
 }
 
 .cb-slideshow li:nth-child(3) div {
-    -webkit-animation-delay: 10s;
-    -moz-animation-delay: 10s;
-    -o-animation-delay: 10s;
-    -ms-animation-delay: 10s;
-    animation-delay: 10s;
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
 }
 
 .cb-slideshow li:nth-child(4) div {
-    -webkit-animation-delay: 15s;
-    -moz-animation-delay: 15s;
-    -o-animation-delay: 15s;
-    -ms-animation-delay: 15s;
-    animation-delay: 15s;
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
 }
 
 .cb-slideshow li:nth-child(5) div {
-    -webkit-animation-delay: 20s;
-    -moz-animation-delay: 20s;
-    -o-animation-delay: 20s;
-    -ms-animation-delay: 20s;
-    animation-delay: 20s;
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
 }
 
 .cb-slideshow li:nth-child(6) div {
-    -webkit-animation-delay: 25s;
-    -moz-animation-delay: 25s;
-    -o-animation-delay: 25s;
-    -ms-animation-delay: 25s;
-    animation-delay: 25s;
-}
-
-.cb-slideshow li:nth-child(7) div {
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
@@ -631,47 +623,39 @@ button:focus {
     animation-delay: 30s;
 }
 
+.cb-slideshow li:nth-child(7) div {
+    -webkit-animation-delay: 36s;
+    -moz-animation-delay: 36s;
+    -o-animation-delay: 36s;
+    -ms-animation-delay: 36s;
+    animation-delay: 36s;
+}
+
 .cb-slideshow li:nth-child(8) div {
-    -webkit-animation-delay: 35s;
-    -moz-animation-delay: 35s;
-    -o-animation-delay: 35s;
-    -ms-animation-delay: 35s;
-    animation-delay: 35s;
+    -webkit-animation-delay: 42s;
+    -moz-animation-delay: 42s;
+    -o-animation-delay: 42s;
+    -ms-animation-delay: 42s;
+    animation-delay: 42s;
 }
 
 .cb-slideshow li:nth-child(9) div {
-    -webkit-animation-delay: 40s;
-    -moz-animation-delay: 40s;
-    -o-animation-delay: 40s;
-    -ms-animation-delay: 40s;
-    animation-delay: 40s;
+    -webkit-animation-delay: 48s;
+    -moz-animation-delay: 48s;
+    -o-animation-delay: 48s;
+    -ms-animation-delay: 48s;
+    animation-delay: 48s;
 }
 
 .cb-slideshow li:nth-child(10) div {
-    -webkit-animation-delay: 45s;
-    -moz-animation-delay: 45s;
-    -o-animation-delay: 45s;
-    -ms-animation-delay: 45s;
-    animation-delay: 45s;
+    -webkit-animation-delay: 54s;
+    -moz-animation-delay: 54s;
+    -o-animation-delay: 54s;
+    -ms-animation-delay: 54s;
+    animation-delay: 54s;
 }
 
 .cb-slideshow li:nth-child(11) div {
-    -webkit-animation-delay: 50s;
-    -moz-animation-delay: 50s;
-    -o-animation-delay: 50s;
-    -ms-animation-delay: 50s;
-    animation-delay: 50s;
-}
-
-.cb-slideshow li:nth-child(12) div {
-    -webkit-animation-delay: 55s;
-    -moz-animation-delay: 55s;
-    -o-animation-delay: 55s;
-    -ms-animation-delay: 55s;
-    animation-delay: 55s;
-}
-
-.cb-slideshow li:nth-child(13) div {
     -webkit-animation-delay: 60s;
     -moz-animation-delay: 60s;
     -o-animation-delay: 60s;
@@ -679,47 +663,39 @@ button:focus {
     animation-delay: 60s;
 }
 
+.cb-slideshow li:nth-child(12) div {
+    -webkit-animation-delay: 66s;
+    -moz-animation-delay: 66s;
+    -o-animation-delay: 66s;
+    -ms-animation-delay: 66s;
+    animation-delay: 66s;
+}
+
+.cb-slideshow li:nth-child(13) div {
+    -webkit-animation-delay: 72s;
+    -moz-animation-delay: 72s;
+    -o-animation-delay: 72s;
+    -ms-animation-delay: 72s;
+    animation-delay: 72s;
+}
+
 .cb-slideshow li:nth-child(14) div {
-    -webkit-animation-delay: 65s;
-    -moz-animation-delay: 65s;
-    -o-animation-delay: 65s;
-    -ms-animation-delay: 65s;
-    animation-delay: 65s;
+    -webkit-animation-delay: 78s;
+    -moz-animation-delay: 78s;
+    -o-animation-delay: 78s;
+    -ms-animation-delay: 78s;
+    animation-delay: 78s;
 }
 
 .cb-slideshow li:nth-child(15) div {
-    -webkit-animation-delay: 70s;
-    -moz-animation-delay: 70s;
-    -o-animation-delay: 70s;
-    -ms-animation-delay: 70s;
-    animation-delay: 70s;
+    -webkit-animation-delay: 84s;
+    -moz-animation-delay: 84s;
+    -o-animation-delay: 84s;
+    -ms-animation-delay: 84s;
+    animation-delay: 84s;
 }
 
 .cb-slideshow li:nth-child(16) div {
-    -webkit-animation-delay: 75s;
-    -moz-animation-delay: 75s;
-    -o-animation-delay: 75s;
-    -ms-animation-delay: 75s;
-    animation-delay: 75s;
-}
-
-.cb-slideshow li:nth-child(17) div {
-    -webkit-animation-delay: 80s;
-    -moz-animation-delay: 80s;
-    -o-animation-delay: 80s;
-    -ms-animation-delay: 80s;
-    animation-delay: 80s;
-}
-
-.cb-slideshow li:nth-child(18) div {
-    -webkit-animation-delay: 85s;
-    -moz-animation-delay: 85s;
-    -o-animation-delay: 85s;
-    -ms-animation-delay: 85s;
-    animation-delay: 85s;
-}
-
-.cb-slideshow li:nth-child(19) div {
     -webkit-animation-delay: 90s;
     -moz-animation-delay: 90s;
     -o-animation-delay: 90s;
@@ -727,47 +703,39 @@ button:focus {
     animation-delay: 90s;
 }
 
+.cb-slideshow li:nth-child(17) div {
+    -webkit-animation-delay: 96s;
+    -moz-animation-delay: 96s;
+    -o-animation-delay: 96s;
+    -ms-animation-delay: 96s;
+    animation-delay: 96s;
+}
+
+.cb-slideshow li:nth-child(18) div {
+    -webkit-animation-delay: 102s;
+    -moz-animation-delay: 102s;
+    -o-animation-delay: 102s;
+    -ms-animation-delay: 102s;
+    animation-delay: 102s;
+}
+
+.cb-slideshow li:nth-child(19) div {
+    -webkit-animation-delay: 108s;
+    -moz-animation-delay: 108s;
+    -o-animation-delay: 108s;
+    -ms-animation-delay: 108s;
+    animation-delay: 108s;
+}
+
 .cb-slideshow li:nth-child(20) div {
-    -webkit-animation-delay: 95s;
-    -moz-animation-delay: 95s;
-    -o-animation-delay: 95s;
-    -ms-animation-delay: 95s;
-    animation-delay: 95s;
+    -webkit-animation-delay: 114s;
+    -moz-animation-delay: 114s;
+    -o-animation-delay: 114s;
+    -ms-animation-delay: 114s;
+    animation-delay: 114s;
 }
 
 .cb-slideshow li:nth-child(21) div {
-    -webkit-animation-delay: 100s;
-    -moz-animation-delay: 100s;
-    -o-animation-delay: 100s;
-    -ms-animation-delay: 100s;
-    animation-delay: 100s;
-}
-
-.cb-slideshow li:nth-child(22) div {
-    -webkit-animation-delay: 105s;
-    -moz-animation-delay: 105s;
-    -o-animation-delay: 105s;
-    -ms-animation-delay: 105s;
-    animation-delay: 105s;
-}
-
-.cb-slideshow li:nth-child(23) div {
-    -webkit-animation-delay: 110s;
-    -moz-animation-delay: 110s;
-    -o-animation-delay: 110s;
-    -ms-animation-delay: 110s;
-    animation-delay: 110s;
-}
-
-.cb-slideshow li:nth-child(24) div {
-    -webkit-animation-delay: 115s;
-    -moz-animation-delay: 115s;
-    -o-animation-delay: 115s;
-    -ms-animation-delay: 115s;
-    animation-delay: 115s;
-}
-
-.cb-slideshow li:nth-child(25) div {
     -webkit-animation-delay: 120s;
     -moz-animation-delay: 120s;
     -o-animation-delay: 120s;
@@ -775,47 +743,39 @@ button:focus {
     animation-delay: 120s;
 }
 
+.cb-slideshow li:nth-child(22) div {
+    -webkit-animation-delay: 126s;
+    -moz-animation-delay: 126s;
+    -o-animation-delay: 126s;
+    -ms-animation-delay: 126s;
+    animation-delay: 126s;
+}
+
+.cb-slideshow li:nth-child(23) div {
+    -webkit-animation-delay: 132s;
+    -moz-animation-delay: 132s;
+    -o-animation-delay: 132s;
+    -ms-animation-delay: 132s;
+    animation-delay: 132s;
+}
+
+.cb-slideshow li:nth-child(24) div {
+    -webkit-animation-delay: 138s;
+    -moz-animation-delay: 138s;
+    -o-animation-delay: 138s;
+    -ms-animation-delay: 138s;
+    animation-delay: 138s;
+}
+
+.cb-slideshow li:nth-child(25) div {
+    -webkit-animation-delay: 144s;
+    -moz-animation-delay: 144s;
+    -o-animation-delay: 144s;
+    -ms-animation-delay: 144s;
+    animation-delay: 144s;
+}
+
 .cb-slideshow li:nth-child(26) div {
-    -webkit-animation-delay: 125s;
-    -moz-animation-delay: 125s;
-    -o-animation-delay: 125s;
-    -ms-animation-delay: 125s;
-    animation-delay: 125s;
-}
-
-.cb-slideshow li:nth-child(27) div {
-    -webkit-animation-delay: 130s;
-    -moz-animation-delay: 130s;
-    -o-animation-delay: 130s;
-    -ms-animation-delay: 130s;
-    animation-delay: 130s;
-}
-
-.cb-slideshow li:nth-child(28) div {
-    -webkit-animation-delay: 135s;
-    -moz-animation-delay: 135s;
-    -o-animation-delay: 135s;
-    -ms-animation-delay: 135s;
-    animation-delay: 135s;
-}
-
-.cb-slideshow li:nth-child(29) div {
-    -webkit-animation-delay: 140s;
-    -moz-animation-delay: 140s;
-    -o-animation-delay: 140s;
-    -ms-animation-delay: 140s;
-    animation-delay: 140s;
-}
-
-.cb-slideshow li:nth-child(30) div {
-    -webkit-animation-delay: 145s;
-    -moz-animation-delay: 145s;
-    -o-animation-delay: 145s;
-    -ms-animation-delay: 145s;
-    animation-delay: 145s;
-}
-
-.cb-slideshow li:nth-child(31) div {
     -webkit-animation-delay: 150s;
     -moz-animation-delay: 150s;
     -o-animation-delay: 150s;
@@ -823,47 +783,39 @@ button:focus {
     animation-delay: 150s;
 }
 
-.cb-slideshow li:nth-child(32) div {
-    -webkit-animation-delay: 155s;
-    -moz-animation-delay: 155s;
-    -o-animation-delay: 155s;
-    -ms-animation-delay: 155s;
-    animation-delay: 155s;
+.cb-slideshow li:nth-child(27) div {
+    -webkit-animation-delay: 156s;
+    -moz-animation-delay: 156s;
+    -o-animation-delay: 156s;
+    -ms-animation-delay: 156s;
+    animation-delay: 156s;
 }
 
-.cb-slideshow li:nth-child(33) div {
-    -webkit-animation-delay: 160s;
-    -moz-animation-delay: 160s;
-    -o-animation-delay: 160s;
-    -ms-animation-delay: 160s;
-    animation-delay: 160s;
+.cb-slideshow li:nth-child(28) div {
+    -webkit-animation-delay: 162s;
+    -moz-animation-delay: 162s;
+    -o-animation-delay: 162s;
+    -ms-animation-delay: 162s;
+    animation-delay: 162s;
 }
 
-.cb-slideshow li:nth-child(34) div {
-    -webkit-animation-delay: 165s;
-    -moz-animation-delay: 165s;
-    -o-animation-delay: 165s;
-    -ms-animation-delay: 165s;
-    animation-delay: 165s;
+.cb-slideshow li:nth-child(29) div {
+    -webkit-animation-delay: 168s;
+    -moz-animation-delay: 168s;
+    -o-animation-delay: 168s;
+    -ms-animation-delay: 168s;
+    animation-delay: 168s;
 }
 
-.cb-slideshow li:nth-child(35) div {
-    -webkit-animation-delay: 170s;
-    -moz-animation-delay: 170s;
-    -o-animation-delay: 170s;
-    -ms-animation-delay: 170s;
-    animation-delay: 170s;
+.cb-slideshow li:nth-child(30) div {
+    -webkit-animation-delay: 174s;
+    -moz-animation-delay: 174s;
+    -o-animation-delay: 174s;
+    -ms-animation-delay: 174s;
+    animation-delay: 174s;
 }
 
-.cb-slideshow li:nth-child(36) div {
-    -webkit-animation-delay: 175s;
-    -moz-animation-delay: 175s;
-    -o-animation-delay: 175s;
-    -ms-animation-delay: 175s;
-    animation-delay: 175s;
-}
-
-.cb-slideshow li:nth-child(37) div {
+.cb-slideshow li:nth-child(31) div {
     -webkit-animation-delay: 180s;
     -moz-animation-delay: 180s;
     -o-animation-delay: 180s;
@@ -871,47 +823,39 @@ button:focus {
     animation-delay: 180s;
 }
 
-.cb-slideshow li:nth-child(38) div {
-    -webkit-animation-delay: 185s;
-    -moz-animation-delay: 185s;
-    -o-animation-delay: 185s;
-    -ms-animation-delay: 185s;
-    animation-delay: 185s;
+.cb-slideshow li:nth-child(32) div {
+    -webkit-animation-delay: 186s;
+    -moz-animation-delay: 186s;
+    -o-animation-delay: 186s;
+    -ms-animation-delay: 186s;
+    animation-delay: 186s;
 }
 
-.cb-slideshow li:nth-child(39) div {
-    -webkit-animation-delay: 190s;
-    -moz-animation-delay: 190s;
-    -o-animation-delay: 190s;
-    -ms-animation-delay: 190s;
-    animation-delay: 190s;
+.cb-slideshow li:nth-child(33) div {
+    -webkit-animation-delay: 192s;
+    -moz-animation-delay: 192s;
+    -o-animation-delay: 192s;
+    -ms-animation-delay: 192s;
+    animation-delay: 192s;
 }
 
-.cb-slideshow li:nth-child(40) div {
-    -webkit-animation-delay: 195s;
-    -moz-animation-delay: 195s;
-    -o-animation-delay: 195s;
-    -ms-animation-delay: 195s;
-    animation-delay: 195s;
+.cb-slideshow li:nth-child(34) div {
+    -webkit-animation-delay: 198s;
+    -moz-animation-delay: 198s;
+    -o-animation-delay: 198s;
+    -ms-animation-delay: 198s;
+    animation-delay: 198s;
 }
 
-.cb-slideshow li:nth-child(41) div {
-    -webkit-animation-delay: 200s;
-    -moz-animation-delay: 200s;
-    -o-animation-delay: 200s;
-    -ms-animation-delay: 200s;
-    animation-delay: 200s;
+.cb-slideshow li:nth-child(35) div {
+    -webkit-animation-delay: 204s;
+    -moz-animation-delay: 204s;
+    -o-animation-delay: 204s;
+    -ms-animation-delay: 204s;
+    animation-delay: 204s;
 }
 
-.cb-slideshow li:nth-child(42) div {
-    -webkit-animation-delay: 205s;
-    -moz-animation-delay: 205s;
-    -o-animation-delay: 205s;
-    -ms-animation-delay: 205s;
-    animation-delay: 205s;
-}
-
-.cb-slideshow li:nth-child(43) div {
+.cb-slideshow li:nth-child(36) div {
     -webkit-animation-delay: 210s;
     -moz-animation-delay: 210s;
     -o-animation-delay: 210s;
@@ -919,44 +863,100 @@ button:focus {
     animation-delay: 210s;
 }
 
+.cb-slideshow li:nth-child(37) div {
+    -webkit-animation-delay: 216s;
+    -moz-animation-delay: 216s;
+    -o-animation-delay: 216s;
+    -ms-animation-delay: 216s;
+    animation-delay: 216s;
+}
+
+.cb-slideshow li:nth-child(38) div {
+    -webkit-animation-delay: 222s;
+    -moz-animation-delay: 222s;
+    -o-animation-delay: 222s;
+    -ms-animation-delay: 222s;
+    animation-delay: 222s;
+}
+
+.cb-slideshow li:nth-child(39) div {
+    -webkit-animation-delay: 228s;
+    -moz-animation-delay: 228s;
+    -o-animation-delay: 228s;
+    -ms-animation-delay: 228s;
+    animation-delay: 228s;
+}
+
+.cb-slideshow li:nth-child(40) div {
+    -webkit-animation-delay: 234s;
+    -moz-animation-delay: 234s;
+    -o-animation-delay: 234s;
+    -ms-animation-delay: 234s;
+    animation-delay: 234s;
+}
+
+.cb-slideshow li:nth-child(41) div {
+    -webkit-animation-delay: 240s;
+    -moz-animation-delay: 240s;
+    -o-animation-delay: 240s;
+    -ms-animation-delay: 240s;
+    animation-delay: 240s;
+}
+
+.cb-slideshow li:nth-child(42) div {
+    -webkit-animation-delay: 246s;
+    -moz-animation-delay: 246s;
+    -o-animation-delay: 246s;
+    -ms-animation-delay: 246s;
+    animation-delay: 246s;
+}
+
+.cb-slideshow li:nth-child(43) div {
+    -webkit-animation-delay: 252s;
+    -moz-animation-delay: 252s;
+    -o-animation-delay: 252s;
+    -ms-animation-delay: 252s;
+    animation-delay: 252s;
+}
+
 .cb-slideshow li:nth-child(44) div {
-    -webkit-animation-delay: 215s;
-    -moz-animation-delay: 215s;
-    -o-animation-delay: 215s;
-    -ms-animation-delay: 215s;
-    animation-delay: 215s;
+    -webkit-animation-delay: 258s;
+    -moz-animation-delay: 258s;
+    -o-animation-delay: 258s;
+    -ms-animation-delay: 258s;
+    animation-delay: 258s;
 }
 
 .cb-slideshow li:nth-child(45) div {
-    -webkit-animation-delay: 220s;
-    -moz-animation-delay: 220s;
-    -o-animation-delay: 220s;
-    -ms-animation-delay: 220s;
-    animation-delay: 220s;
+    -webkit-animation-delay: 264s;
+    -moz-animation-delay: 264s;
+    -o-animation-delay: 264s;
+    -ms-animation-delay: 264s;
+    animation-delay: 264s;
 }
 
 .cb-slideshow li:nth-child(46) div {
-    -webkit-animation-delay: 225s;
-    -moz-animation-delay: 225s;
-    -o-animation-delay: 225s;
-    -ms-animation-delay: 225s;
-    animation-delay: 225s;
+    -webkit-animation-delay: 270s;
+    -moz-animation-delay: 270s;
+    -o-animation-delay: 270s;
+    -ms-animation-delay: 270s;
+    animation-delay: 270s;
 }
 
 .cb-slideshow li:nth-child(47) div {
-    -webkit-animation-delay: 230s;
-    -moz-animation-delay: 230s;
-    -o-animation-delay: 230s;
-    -ms-animation-delay: 230s;
-    animation-delay: 230s;
+    -webkit-animation-delay: 276s;
+    -moz-animation-delay: 276s;
+    -o-animation-delay: 276s;
+    -ms-animation-delay: 276s;
+    animation-delay: 276s;
 }
 
 .cb-slideshow li:nth-child(48) div {
-    -webkit-animation-delay: 235s;
-    -moz-animation-delay: 235s;
-    -o-animation-delay: 235s;
-    -ms-animation-delay: 235s;
-    animation-delay: 235s;
+    -webkit-animation-delay: 282s;
+    -moz-animation-delay: 282s;
+    -o-animation-delay: 282s;
+    -ms-animation-delay: 282s;
+    animation-delay: 282s;
 }
 
 
