@@ -28,8 +28,7 @@
         </card>
         <card id="sxy" data-image="https://fashion13.oss-cn-beijing.aliyuncs.com/wishes/1.jpg">
             <h1 slot="header">史欣雨</h1>
-            <p slot="content">&nbsp&nbsp&nbsp&nbsp也不知道以后会不会有见面的机会, 想着这可能是最后说的话, 就尽可能沉默一些. 这样, 产出的话简明扼要, 也许就能在你们心中留下淡淡的痕迹（(^з^)-☆<br>&nbsp&nbsp&nbsp&nbsp于是便只留下一句话, 可能看起来有些鸡汤, 但因为我最近看到很多学长学姐们因为毕业感到时间的焦虑, 所以选择了这句: <br>&nbsp&nbsp&nbsp&nbsp每个人都有自己的时区. 你只管向前走, 不必着急求结果, 也不必忙着去追赶任何人的脚步,
-                只要全力以赴, 那么未来自有无悔的结果和意外的惊喜. 学姐学长们都会得到最好滴!
+            <p slot="content">也不知道以后会不会有见面的机会, 想着这可能是最后说的话, 就尽可能沉默一些. 这样, 产出的话简明扼要, 也许就能在你们心中留下淡淡的痕迹（(^з^)-☆<br>于是便只留下一句话, 可能看起来有些鸡汤, 但因为我最近看到很多学长学姐们因为毕业感到时间的焦虑, 所以选择了这句: <br>每个人都有自己的时区. 你只管向前走, 不必着急求结果, 也不必忙着去追赶任何人的脚步, 只要全力以赴, 那么未来自有无悔的结果和意外的惊喜. 学姐学长们都会得到最好滴!
             </p>
         </card>
         <card id="dxh" data-image="https://fashion13.oss-cn-beijing.aliyuncs.com/wishes/7.jpg">
@@ -119,6 +118,8 @@
                     this.mouseLeaveDelay = setTimeout(() => {
                         this.mouseX = 0;
                         this.mouseY = 0;
+                        console.log(document.querySelector('#bgm'))
+                        document.querySelector('#bgm').play();
                     }, 1000);
                 }
             }
