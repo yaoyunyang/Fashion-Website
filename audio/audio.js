@@ -19,11 +19,9 @@ $(function() {
             var play = 0;
             var counter = 0;
             var stopTimer;
-            var bannerTimer;
             var safeKill = 0;
             var flag = 1;
             // 这个是实时更新啊??? 下面函数中每次更改源的时候页面都会加载一次, 触发一次ready函数
-            var next_slide;
             var audio = document.getElementById('audioFile');
 
             function centerize() {
@@ -96,7 +94,7 @@ $(function() {
                         opacity: 0
                     });
                     $('#play').css({
-                        opacity: 0
+                        display: 'none'
                     });
                     $('#lyrics').css({
                         transition: 'opacity 3s ease-out',
