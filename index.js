@@ -15,7 +15,7 @@ $(function() {
     });
 
     $('#confirm_btn').on('click', function() {
-        var name_list = ['zl', 'hyp', 'wzx', 'lzy', 'lwk', 'yxy', 'wl', 'cj', 'cyx', 'hh', 'qdy', 'hjc', 'zzq', 'hz', 'gws', 'zzr', 'mxl', 'nrx', 'gwj', 'kyl', 'ljy', 'hzb', 'wzg', 'yh', 'zf', 'zgb', 'ly', 'zt', 'wyz', 'zb'];
+        var name_list = ['zl', 'kk', 'hyp', 'wzx', 'lzy', 'lwk', 'yxy', 'wl', 'cj', 'cyx', 'hh', 'qdy', 'hjc', 'zzq', 'hz', 'gws', 'zzr', 'mxl', 'nrx', 'gwj', 'kyl', 'ljy', 'hzb', 'wzg', 'yh', 'zf', 'zgb', 'ly', 'zt', 'wyz', 'zb'];
         var input_value = document.getElementById("input_rectangle").value;
         if (name_list.indexOf(input_value) == -1) {
             if (input_value == 'vistor') {
@@ -27,6 +27,11 @@ $(function() {
                 document.querySelector(".welcome").style.opacity = 0;
                 flag = 1;
             }
+        } else if (input_value == 'kk') {
+            document.getElementById("imagePreview").style.backgroundImage = "url(https://fashion13.oss-cn-beijing.aliyuncs.com/Q_avatar/kyl.jpg)";
+            document.querySelector(".welcome").style.display = "none";
+            document.querySelector(".avatar").style.opacity = 1;
+            document.getElementById("graduate_name").innerHTML = input_value.toUpperCase();
         } else {
             document.getElementById("imagePreview").style.backgroundImage = "url(https://fashion13.oss-cn-beijing.aliyuncs.com/Q_avatar/" + input_value.toLowerCase() + ".jpg)";
             document.querySelector(".welcome").style.display = "none";
