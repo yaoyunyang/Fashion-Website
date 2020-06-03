@@ -18,7 +18,7 @@ $(function() {
         var name_list = ['zl', 'kk', 'hyp', 'wzx', 'lzy', 'lwk', 'yxy', 'wl', 'cj', 'cyx', 'hh', 'qdy', 'hjc', 'zzq', 'hz', 'gws', 'zzr', 'mxl', 'nrx', 'gwj', 'kyl', 'ljy', 'hzb', 'wzg', 'yh', 'zf', 'zgb', 'ly', 'zt', 'wyz', 'zb'];
         var input_value = document.getElementById("input_rectangle").value;
         if (name_list.indexOf(input_value) == -1) {
-            if (input_value == 'vistor') {
+            if (input_value == 'visitor') {
                 document.querySelector(".welcome").style.display = "none";
                 document.querySelector(".avatar").style.opacity = 1;
             } else {
